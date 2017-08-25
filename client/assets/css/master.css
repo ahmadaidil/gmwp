@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|PT+Sans');
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar{
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.logo{
+  background-color: #fff;;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f8f8f8;
+  color: #b11c1e;
+  font-family: 'Monoton', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.logo-span{
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+.sidebar-bottom{
+  background-color: #f2f2f2;
+  margin: 15px 0;
+  height: 100%;
+}
+.sidebar-bottom .genre{
+  padding: 30px 0 13px 0;
+  margin-bottom: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  color: #aaa;
+  padding-left: 5%;
+}
+.sidebar-bottom ul{
+  padding-left: 0;
+  background-color: #f2f2f2;
+}
+
+.sidebar-bottom li{
+  color: #b11c1e;
+  list-style: none;
+  padding: 3% 10%;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+}
+.sidebar-bottom li:hover{
+  background-color: #b11c1e;
+  color: #fff;
+}
+.sidebar-bottom a{
+  text-decoration: none;
+}
+
+.body-wrap{
+  margin-top: 3%;
+  padding-left: 0;
+  text-align: center;
+  padding-left: 28%;
+}
+
+.body-top .input-wrap{
+  position: relative;
+}
+.body-top .imgeh{
+  position: absolute;
+  top: 4px;
+  right: 20px;
+  background-color: #fff;
+  border: none;
+}
+.wrapper-body{
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.body-top .imgeh img{
+  width: 20px;
+}
+.body-bottom{
+  margin-top: 8.5%;
+  text-align: left;
+}
+.left{
+  text-align: center;
+}
+.left img{
+  width: 75%;
+}
